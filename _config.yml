@@ -31,13 +31,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-analytics
 
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-1291847-10
-    anonymizeIp: true
+google_analytics: UA-1291847-10
 
 # Exclude from processing.
 # The following items will not be processed, by default.
