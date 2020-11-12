@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/hendrikschneider/jekyll-analytics.git
+  revision: 40e09570dea80e3a9ecb0ad796aad1c434ff067c
+  specs:
+    jekyll-analytics (0.1.12)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -74,6 +80,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
+  jekyll-analytics!
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data

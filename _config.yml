@@ -32,7 +32,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 theme: minima
 
-google_analytics: UA-1291847-10
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  Plausible:
+    domain: "rockchalknation.com"
+    source: "https://plausible.io/js/plausible.js"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
